@@ -1,0 +1,37 @@
+.wraper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(to bottom, #b97b7b 0%, #d0d079 100%);
+}
+
+.acc{
+    width: 500px;
+}
+
+.item{
+   background-color: rgb(112, 224, 246);
+   margin-bottom: 10px;
+   padding: 10px 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    height: auto;
+}
+
+.wraper button{
+    background-color: rgb(59, 173, 199);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
