@@ -6,6 +6,7 @@ function App() {
 
   const handelData = (id) => {
     setDatas(id===datas ? null : id);
+  
   };
 
   const data = [
