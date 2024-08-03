@@ -5,7 +5,7 @@ function App() {
   const [color, setColor] = useState('#246E03')
 
 
-  const Color = ["blue", "red", "green", "black", "pink", "gold", "yellow"]
+  const Color = ["blue", "red", "green", "black", "pink", "gold", "yellow","violet","gray","white"]
 
   const getRand = (length) => {
     return Math.floor(Math.random() * length)
