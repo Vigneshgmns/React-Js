@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className="wraper">
-        <button>Enbale Mulit Selection</button>
+        <button>Accordion</button>
         {
           data && data.length > 0 ?
             <div className="acc">
