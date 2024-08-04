@@ -23,8 +23,16 @@ export const StarRating = ({ noOfStar = 5 }) => {
   const [rating, setRating] = useState(0)
 
   const handeling = (id) => {
+    setRating(id)
     console.log(id)
-
+  }
+  const handelingLave = (id) => {
+    setHover(rating)
+    console.log(id)
+  }
+  const handelingMove = (id) => {
+    setHover(id)
+    console.log(id)
   }
 
 
@@ -36,9 +44,10 @@ export const StarRating = ({ noOfStar = 5 }) => {
           return <FaStar
             size={40}
             key={index}
+            className={index <= (hover || rating) ? 'active' : 'inactive'}
             onClick={() => handeling(index)}
-            onMouseLeave={() => handeling(index)}
-            onMouseMove={() => handeling(index)} />
+            onMouseLeave={() => handelingLave()}
+            onMouseMove={() => handelingMove(index)} />
         })
       }
     </div>
