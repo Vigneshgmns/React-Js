@@ -1,0 +1,48 @@
+.app {
+    text-align: center;
+}
+
+.container {
+   max-width: 800px;
+   margin:  0 auto;
+   padding: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.from-cont {
+    display:  flex;
+    margin-bottom: 1rem;
+}
+
+.from-cont label{
+    flex: 1;
+    font-size: bold;
+    margin-right: 1rem;
+}
+
+.from-cont input {
+    flex: 3;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+}
+
+.btn{
+    background:  #155b79;
+    color: #fffefe;
+    border: none;
+    outline: none;
+    padding:0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:#53b0e6 ;
+    color: #fbf4f4;
+}
